@@ -13,6 +13,7 @@ def translator(str):
                     list += characters[j]
         return list
     else:
+        str = str.upper()
         for i in str:
             for j in range(0,len(characters)):
                 if characters[j] == i:
