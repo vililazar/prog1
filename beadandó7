@@ -1,1 +1,3 @@
-
+def beadando_7(string):
+    string = string.lower()
+    palindromes = []
