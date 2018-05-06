@@ -21,7 +21,7 @@ def translator(str):
                     list += ' '
         return list
 
-text = 'HELLOSZIAVALENSZIA'
+text = 'HELLOSZIavalenszia'
 morse = '.... . .-.. .-.. --- ... --.. .. .- ...- .- .-.. . -. ... --.. .. .-'
 print(translator(morse))
 print(translator(text))
