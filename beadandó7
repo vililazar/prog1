@@ -8,5 +8,4 @@ def beadando_7(string):
 
             if substring == substring[::-1]:
                 palindromes.append(substring)
-                max = ''
-                max_sz = 0
+            
