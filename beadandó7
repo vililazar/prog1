@@ -1,6 +1,6 @@
 def beadando_7(string):
     string = string.lower()
-    string = string.replace(' ', '')
+    string = "".join(string.split())
     palindromes = []
 
     for i in range(len(string)):
