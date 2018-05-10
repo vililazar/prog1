@@ -15,6 +15,6 @@ def beadando_7(string):
                         max = k
                         max_sz = len(k)
     return max
-x = input("Give me a string: ")
 
+x = input("Give me a string: ")
 print(beadando_7(x))
