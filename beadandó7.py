@@ -8,9 +8,9 @@ def beadando_7(string):
         for j in range(0, i):
             substring = string[j:i+1]
             #print(substring)
-            
             if substring == substring[::-1]:
                 palindromes.append(substring)
+                
     max = ''
     max_sz = 0
     for k in palindromes:
